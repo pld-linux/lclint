@@ -1,7 +1,8 @@
 Summary:	An implementation of the lint program
+Summary(pl):	Implementacja programu lint
 Name:		lclint
 Version:	2.5q
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Tools
 Group(de):	Entwicklung/Werkzeuge
@@ -18,6 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description 
 Scans C source code for mistakes and bad style.
+
+%description -l pl
+Program szukaj±cy w ¼ród³ach w C b³êdów i z³ego stylu.
 
 %prep
 %setup -q -a 1
