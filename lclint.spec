@@ -14,7 +14,7 @@ URL:		http://lclint.cs.virginia.edu/
 BuildRequires:	flex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%description 
+%description
 Scans C source code for mistakes and bad style.
 
 %description -l pl
