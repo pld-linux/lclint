@@ -1,0 +1,10 @@
+--- lclint-2.5q/src/cpplib.c.time	Thu Feb 15 16:58:17 2001
++++ lclint-2.5q/src/cpplib.c	Thu Feb 15 16:59:59 2001
+@@ -55,6 +55,7 @@
+  */
+ 
+ # include <ctype.h>
++#include <time.h>
+ # include <stdio.h>
+ # include <signal.h>
+ # ifdef __STDC__

@@ -1,0 +1,10 @@
+--- lclint-2.5q/src/cscanner.l.proto	Mon Dec 11 17:49:28 2000
++++ lclint-2.5q/src/cscanner.l	Mon Dec 11 17:49:48 2000
+@@ -81,7 +81,6 @@
+ 
+ /*@-noparams@*/
+ /*@-incondefs@*/
+-extern /*@external@*/ int read ();
+ /*@=incondefs@*/
+ /*@=noparams@*/
+ 
