@@ -5,9 +5,6 @@ Version:	2.5q
 Release:	6
 License:	GPL
 Group:		Development/Tools
-Group(de):	Entwicklung/Werkzeuge
-Group(fr):	Development/Outils
-Group(pl):	Programowanie/Narzêdzia
 Source0:	http://lclint.cs.virginia.edu/%{name}-%{version}.src.tar.gz
 Source1:	http://lclint.cs.virginia.edu/%{name}-guide.tar.gz
 Patch1:		%{name}-Makefile.patch
