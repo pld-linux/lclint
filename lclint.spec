@@ -29,7 +29,7 @@ Scans C source code for mistakes and bad style.
 
 # XXX Do NOT simplify the build here or lclint will NOT have correct defaults!
 # XXX The lclint top level Makefile invokes "make -e" and is subtly BROKEN!
-make -C src \
+%{__make} -C src \
     CC="cc -DSTDC_HEADERS=1 $CFLAGS" \
     LINKFLAGS="$LDFLAGS -lfl" \
     DEFAULT_CPP=cpp \
