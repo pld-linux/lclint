@@ -1,0 +1,52 @@
+- initial PLD version
+
+* Fri Jul 28 2000 Eric Veldhuyzen <eric@terra.nu>
+- upgraded to 2.5q
+
+* Thu Jun 08 2000 Eric Veldhuyzen <eric@terra.nu>
+- Changed documentation to the official tar distribution.
+
+* Fri May 26 2000 Eric Veldhuyzen <eric@terra.nu>
+- upgraded to 2.5m
+- reorganized specfile
+
+* Sat Oct 31 1998 Justin Cormack <jpc1@doc.ic.ac.uk>
+
+- found correct 2.4b source (was actually 2.3)
+- no longer an emacs mode
+- added documentation
+
+* Wed Oct 14 1998 Justin Cormack <jpc1@doc.ic.ac.uk>
+
+- fixed library directories not to point at buildroot
+
+* Mon Oct 12 1998 Justin Cormack <jpc1@doc.ic.ac.uk>
+
+- fixed executable
+
+* Mon Jun 06 1998 Michael Maher <mike@redhat.com>
+
+- fixed paths for executable link
+
+* Mon May 17 1998 Michael Maher <mike@redhat.com>
+
+- updated to newest version
+- added buildroot
+- added wmconfig
+
+
+* Mon Feb 16 1998 Otto Hammersmith <otto@redhat.com>
+
+- added Summary
+
+* Tue Feb  3 1998 Otto Hammersmith <otto@redhat.com>
+
+- %doc'ed some stuff
+
+* Mon Feb  2 1998 Otto Hammersmith <otto@redhat.com>
+
+- made /usr/lib/lclint/bin a directory, not the executable
+
+* Fri Jan 23 1998 Otto Hammersmith <otto@redhat.com>
+
+- built the package
