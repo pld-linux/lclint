@@ -6,7 +6,9 @@ Release:	6
 License:	GPL
 Group:		Development/Tools
 Source0:	http://lclint.cs.virginia.edu/%{name}-%{version}.src.tar.gz
+# Source0-md5:	c4c798823fe25780124dfd65933fe1ed
 Source1:	http://lclint.cs.virginia.edu/%{name}-guide.tar.gz
+# Source1-md5:	72ff5d63471f65f53427d6b7863363c4
 Patch1:		%{name}-Makefile.patch
 Patch2:		%{name}-proto.patch
 Patch3:		%{name}-time.patch
