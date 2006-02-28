@@ -43,7 +43,8 @@ Program szukaj±cy w ¼ród³ach w C b³êdów i z³ego stylu.
 	DEFAULT_LARCHPATH=\".:%{_libdir}/%{name}/lib\" \
 	DEFAULT_LCLIMPORTDIR=\".:%{_libdir}/%{name}/imports\" \
 	SYSTEM_LIBDIR=\"%{_prefix}\"
-	
+
+# " -for vim
 mv src/lclint bin/lclint
 
 %install
