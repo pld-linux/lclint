@@ -1,5 +1,5 @@
 Summary:	An implementation of the lint program
-Summary(pl):	Implementacja programu lint
+Summary(pl.UTF-8):   Implementacja programu lint
 Name:		lclint
 Version:	2.5q
 Release:	7
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Scans C source code for mistakes and bad style.
 
-%description -l pl
-Program szukaj±cy w ¼ród³ach w C b³êdów i z³ego stylu.
+%description -l pl.UTF-8
+Program szukajÄ…cy w ÅºrÃ³dÅ‚ach w C bÅ‚Ä™dÃ³w i zÅ‚ego stylu.
 
 %prep
 %setup -q -a 1
