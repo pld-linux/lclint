@@ -1,5 +1,5 @@
 Summary:	An implementation of the lint program
-Summary(pl.UTF-8):   Implementacja programu lint
+Summary(pl.UTF-8):	Implementacja programu lint
 Name:		lclint
 Version:	2.5q
 Release:	7
